@@ -24,7 +24,7 @@ int main()
     printf("Numeros reais: \n %.3f \n %.3lf ", numeroRealFloat, numeroRealDouble);
     printf("Letra %c", umaLetra);
     printf("String %s", umaString);
-    printf("Endereco: \"%p\"\n", endereco_memoria);
+    printf("Endereco do inteiro: %x", &numeroInteiro);
 
     return 0;
 }
